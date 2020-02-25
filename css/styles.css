@@ -151,23 +151,23 @@ button{
   margin: 20px 20px 50px;
 }
 
-/* Pricing Section */
+/* TEAM */
 
 #pricing {
-  padding: 100px;
+  padding: 50px;
 }
 
 .person-container{
-  width: 250px;
-  height: 250px;
+  width: 175px;
+  height: 175px;
   position: relative;
   margin: auto;
 }
 
 .team-img{
   border-radius: 100%;
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   z-index: 5;
   top: 20%;
   position: absolute;
@@ -179,8 +179,8 @@ button{
   border-radius: 100%;
   border: black solid;
   border-width: 2px;
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   z-index: 4;
   top: 10%;
   position: absolute;
@@ -190,8 +190,8 @@ button{
 .gradient-circle{
   border-radius: 100%;
   background: -webkit-linear-gradient(220deg, rgba(246,127,38,1) 0%, rgba(233,203,97,1) 100%);
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   z-index: 3;
   top: 13%;
   position: absolute;
