@@ -157,7 +157,7 @@ body {
       width: 35rem; } }
   @media (max-width: 37.5em) {
     .about-illustration {
-      width: 27rem; } }
+      width: 25rem; } }
 
 .paragraph {
   font-size: 1.6rem; }
@@ -615,7 +615,7 @@ body {
       margin: 0; } }
   @media (max-width: 37.5em) {
     .map {
-      width: 200px;
+      width: 175px;
       margin: 0; } }
 
 .popup {
