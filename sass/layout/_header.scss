@@ -1,0 +1,73 @@
+.header {
+  height: 95vh;
+  background-color: $color-grey-dark;
+  position: relative;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+
+  @include respond(tab-port) {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+  }
+
+  &__logo-box {
+    position: absolute;
+    top: 4rem;
+    left: 4rem;
+  }
+
+  &__logo {
+    height: 6rem;
+  }
+
+  &__balance-logo {
+    height: 40rem;
+    @include respond(tab-port) {
+      height: 40rem;
+    }
+    @include respond(phone) {
+      height: 30rem;;
+    }
+  }
+
+  &__stats-logo {
+    height: 30rem;
+    @include respond(tab-port) {
+      height: 28rem;
+    }
+    @include respond(phone) {
+      height: 23rem;;
+    }
+  }
+
+  &__text-box {
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    @include respond(tab-port) {
+      top: 30%;
+    }
+    @include respond(phone) {
+      top: 30%;
+    }
+  }
+
+  &__browser-box {
+    position: absolute;
+    bottom: 10rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    @include respond(tab-port) {
+      bottom: 5rem;
+    }
+
+    @include respond(phone) {
+      bottom: 5%;
+    }
+  }
+}

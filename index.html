@@ -1,280 +1,255 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8" />
-    <title>Vodum</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <!-- Google Fonts -->
+    <!--
     <link
-      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap"
+      href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900"
+      rel="stylesheet"
+    />
+    -->
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&family=Varela+Round&display=swap"
       rel="stylesheet"
     />
 
-    <!-- CSS Stylesheets -->
     <link
+      href="//db.onlinewebfonts.com/c/065b323ec2a576d066ad0d9d395d20a0?family=Cera+Round+Pro+DEMO+Medium"
       rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/styles.css" />
 
-    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/icon-font.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
     <script
       defer
       src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"
     ></script>
 
-    <!-- Bootstrap Scripts -->
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
+    <title>VODUM | Earn coins by watching ads</title>
   </head>
 
   <body>
-    <section class="colored-section" id="title">
-      <div class="container-fluid">
-        <!-- Nav Bar -->
+    <header class="header">
+      <div class="header__logo-box">
+        <img src="img/LOGO.svg" alt="Logo" class="header__logo" />
+      </div>
 
-        <nav class="navbar navbar-expand-lg navbar-dark">
-          <a class="navbar-brand" href="">Vodum</a>
-
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarTogglerDemo02"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#footer">BLOKK</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#pricing">TEAM</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#cta">CONTACT</a>
-              </li>
-            </ul>
+      <div class="header__text-box">
+        <h1 class="heading-primary">
+          <div class="heading-primary--main">
+            <img
+              src="img/BALANCE.svg"
+              alt="Logo"
+              class="header__balance-logo"
+            />
           </div>
-        </nav>
+          <div class="heading-primary--sub">
+            <img src="img/STATS.svg" alt="Logo" class="header__stats-logo" />
+          </div>
+        </h1>
+        <!--<a href="#section-tours" class="btn btn--white btn--animated">Discover our tours</a>-->
+      </div>
 
-        <!-- Title -->
+      <div class="header__browser-box">
+        <h1 class="heading-supported-browsers">
+          Kommer til din nettleser
+        </h1>
+        <h1 class="heading-supported-browsers">
+          <i class="fab fa-safari heading-browser-icon"></i>
+          <i class="fab fa-chrome heading-browser-icon"></i>
+          <i class="fab fa-firefox heading-browser-icon"></i>
+        </h1>
+      </div>
+    </header>
+
+    <main>
+      <section class="section-about">
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary">
+            Generer poeng for å se annonser på nett
+          </h2>
+        </div>
 
         <div class="row">
-          <div class="col-lg-6">
-            <h1 class="big-heading">Earn points for enabling ads</h1>
-            <button type="button" class="btn btn-dark btn-lg download-button">
-              <i class="fab fa-apple"></i> Download
-            </button>
-            <button
-              type="button"
-              class="btn btn-outline-light btn-lg download-button"
-            >
-              <i class="fab fa-google-play"></i> Download
-            </button>
+          <div class="col-1-of-3">
+            <div class="feature-box">
+              <i class="fas fa-chart-pie about-icon"></i>
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                få noe tilbake
+              </h3>
+              <p class="feature-box__text">
+                Vodum tilbyr deg muligheten til å tjene poeng for annonsene du
+                ser
+              </p>
+            </div>
           </div>
 
-          <div class="col-lg-6">
-            <img
-              class="title-image"
-              src="images/Vodum_Illustration.svg"
-              alt="illustration"
-            />
+          <div class="col-1-of-3">
+            <div class="feature-box">
+              <i class="fas fa-shopping-basket about-icon"></i>
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                Ekslusive tilbud
+              </h3>
+              <p class="feature-box__text">
+                Du får tilgang til et bredt spekter av varer og tilbud på Vodum
+                Market
+              </p>
+            </div>
+          </div>
+
+          <div class="col-1-of-3">
+            <div class="feature-box">
+              <i class="fas fa-heart about-icon"></i>
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                Utrett en forskjell
+              </h3>
+              <p class="feature-box__text">
+                På vodum Charity kan du donere direkte til din hjertesak
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Features -->
-
-    <section class="white-section" id="features">
-      <div class="container-fluid">
+      <section class="section-features" id="about">
         <div class="row">
-          <div class="feature-box col-lg-4">
-            <i class="icon fas fa-check-circle fa-4x"></i>
-            <h3 class="feature-title">Fast</h3>
-            <p>Blazing fast, so you can enjoy surfing the web</p>
+          <div class="col-1-of-2">
+            <h1 class="heading-darksections">
+              Hvorfor skal du laste ned Vodum?
+            </h1>
+            <p class="about-paragraph">
+              Når du surfer på nettet generer du enorme summer gjennom å se
+              annonser. Din internettaktivitet spores, lagres og selges videre
+              på annonsebørser. Dette har ført til at hele 30% av Norges
+              befolkning har lastet ned annonseblokkerende programmer. Dette har
+              dessverre negative konsekvenser for aktører på nett som er
+              avhengig av inntektene de får gjennom annonser.
+            </p>
+            <p class="about-paragraph">
+              Vodum ønsker å løse dette problemet ved å gi deg som forbruker noe
+              tilbake. For at du frivillig skal se annonser tilbyr vi deg poeng
+              gjennom vårt transaksjonssystem. Ta makten tilbake på nett – og
+              last ned Vodum i dag!
+            </p>
           </div>
 
-          <div class="feature-box col-lg-4">
-            <i class="icon fas fa-bullseye fa-4x"></i>
-            <h3 class="feature-title">Good rewards</h3>
-            <p>Our partners deliveres the best deals</p>
-          </div>
-
-          <div class="feature-box col-lg-4">
-            <i class="icon fas fa-heart fa-4x"></i>
-            <h3 class="feature-title">Instant coins</h3>
-            <p>All coins will be generated on the fly, like magic</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Testimonials -->
-
-    <section class="colored-section" id="testimonials">
-      <div id="testimonial-carousel" class="carousel slide" data-ride="false">
-        <div class="carousel-inner">
-          <div class="carousel-item active container-fluid">
-            <h2 class="testimonial-text">
-              MARKETPLACE
-            </h2>
-            <img
-              class="testimonial-image"
-              src="images/MARKETPLACE.svg"
-              alt="Marketplace"
-            />
-          </div>
-          <div class="carousel-item container-fluid">
-            <h2 class="testimonial-text">
-              CHARITY
-            </h2>
-            <img
-              class="testimonial-image"
-              src="images/CHARITY.svg"
-              alt="Charity"
-            />
+          <div class="col-1-of-2">
+            <div class="feature-box-transparent">
+              <img
+                src="img/vodum-illustration-1.svg"
+                alt="Illustration"
+                class="about-illustration"
+              />
+            </div>
           </div>
         </div>
-        <a
-          class="carousel-control-prev"
-          href="#testimonial-carousel"
-          role="button"
-          data-slide="prev"
-        >
-          <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a
-          class="carousel-control-next"
-          href="#testimonial-carousel"
-          role="button"
-          data-slide="next"
-        >
-          <span class="carousel-control-next-icon"></span>
-        </a>
-      </div>
-    </section>
+      </section>
 
-
-
-    <!-- Pricing -->
-
-    <section class="white-section" id="pricing">
-      <h2 class="section-heading">TEAM</h2>
-      <!-- <p>Meet the team!</p> -->
-
-      <div class="row">
-        <div class="pricing-column col-lg-3 col-md-6">
-          <div class="person-container">
-            <img class="team-img" src="images/laws.svg" alt="Laws" />
-            <div class="border-circle"></div>
-            <div class="gradient-circle"></div>
-          </div>
-          <h6 class="person-name">TOBIAS LAWS</h6>
-          <p>CEO</p>
-          <button class="btn btn-lg " style="color: #2867B2">
-            <i class="fab fa-linkedin fa-lg"></i>
-          </button>
-          <button class="btn btn-lg icon-btn">
-            <i class="fas fa-envelope fa-lg"></i>
-          </button>
+      <section class="section-partners">
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary">
+            Samarbeidspartnere
+          </h2>
         </div>
 
-        <div class="pricing-column col-lg-3 col-md-6">
-          <div class="person-container">
-            <img class="team-img" src="images/eivind.svg" alt="Eivind" />
-            <div class="border-circle"></div>
-            <div class="gradient-circle"></div>
+        <div class="row">
+          <div class="col-1-of-3">
+            <div class="feature-box-transparent">
+              <img
+                src="img/onetreeplanted.png"
+                alt="Illustration"
+                class="partners"
+              />
+              <div class="partners-text">
+                One Tree planted
+              </div>
+            </div>
           </div>
-          <h6 class="person-name">EIVIND ARONSVEEN</h6>
-          <p>CFO</p>
-          <button class="btn btn-lg" style="color: #2867B2">
-            <i class="fab fa-linkedin fa-lg"></i>
-          </button>
-          <button class="btn btn-lg icon-btn">
-            <i class="fas fa-envelope fa-lg"></i>
-          </button>
-        </div>
-
-        <div class="pricing-column col-lg-3 col-md-6">
-          <div class="person-container">
-            <img class="team-img" src="images/kristian.svg" alt="Kristian" />
-            <div class="border-circle"></div>
-            <div class="gradient-circle"></div>
+          <div class="col-1-of-3">
+            <div class="feature-box-transparent">
+              <img
+                src="img/visinnovasjon.png"
+                alt="Illustration"
+                class="partners"
+              />
+              <div class="partners-text">
+                Vis innovasjon
+              </div>
+            </div>
           </div>
-          <h6 class="person-name">KRISTIAN SØMOE</h6>
-          <p>COO</p>
-          <button class="btn btn-lg" style="color: #2867B2">
-            <i class="fab fa-linkedin fa-lg"></i>
-          </button>
-          <button class="btn btn-lg icon-btn" style="color: gray">
-            <i class="fas fa-envelope fa-lg"></i>
-          </button>
-        </div>
-
-        <div class="pricing-column col-lg-3 col-md-6">
-          <div class="person-container">
-            <img class="team-img" src="images/haakon.svg" alt="Håkon" />
-            <div class="border-circle"></div>
-            <div class="gradient-circle"></div>
+          <div class="col-1-of-3">
+            <div class="feature-box-transparent">
+              <img
+                src="img/innovasjonNorge.svg"
+                alt="Illustration"
+                class="partners"
+              />
+              <div class="partners-text">
+                Innovasjon norge
+              </div>
+            </div>
           </div>
-          <h6 class="person-name">HÅKON STAFF</h6>
-          <p>CMO</p>
-          <button class="btn btn-lg" style="color: #2867B2">
-            <i class="fab fa-linkedin fa-lg"></i>
-          </button>
-          <button class="btn btn-lg icon-btn" style="color: gray">
-            <i class="fas fa-envelope fa-lg"></i>
-          </button>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Call to Action -->
+      <section class="section-book">
+        <div class="row">
+          <div class="col-1-of-2">
+            <div class="map-text-header">
+              Kontakt oss!
+            </div>
+            <div class="map-text-p1">
+              For bedrifter:
+            </div>
+            <div class="map-text-p2">
+              kristian@vodum.no
+            </div>
+            <div class="map-text-p1">
+              For generell informasjon:
+            </div>
+            <div class="map-text-p2">
+              tobias@vodum.no
+            </div>
+          </div>
+          <div class="col-1-of-2">
+            <div class="feature-box-transparent">
+              <img src="img/MAP3.svg" alt="Illustration" class="map" />
+              <div class="map-text">
+                Lars Hilles gate 30, 5008 Bergen
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-    <section class="colored-section" id="cta">
-      <div class="container-fluid">
-        <h3 class="big-heading">
-          Start earn your coins today!
-        </h3>
-        <button class="download-button btn btn-lg btn-dark" type="button">
-          <i class="fab fa-apple"></i> Download
-        </button>
-        <button class="download-button btn btn-lg brn-light" type="button">
-          <i class="fab fa-google-play"></i> Download
-        </button>
-      </div>
-    </section>
-
-    <!-- Footer -->
-
-    <footer class="white-section" id="footer">
-      <div class="container-fluid">
-        <i class="social-icon fab fa-facebook-f"></i>
-        <i class="social-icon fab fa-twitter"></i>
-        <i class="social-icon fab fa-instagram"></i>
-        <i class="social-icon fas fa-envelope"></i>
-        <p>© Copyright 2020 Vodum</p>
-      </div>
-    </footer>
+      <footer class="footer">
+        <div class="footer__logo-box">
+          <img src="img/LOGO.svg" alt="Full logo" class="footer__logo" />
+        </div>
+        <div class="row">
+          <div class="col-1-of-1">
+            <div class="footer__navigation">
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <i href="#" class="fab fa-facebook footer-icon"></i>
+                </li>
+                <li class="footer__item">
+                  <i href="#" class="fab fa-linkedin footer-icon"></i>
+                </li>
+                <li class="footer__item">
+                  <i href="#" class="fas fa-rss footer-icon"></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
   </body>
 </html>
