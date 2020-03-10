@@ -157,7 +157,7 @@ body {
       width: 35rem; } }
   @media (max-width: 37.5em) {
     .about-illustration {
-      width: 25rem; } }
+      width: 90%; } }
 
 .paragraph {
   font-size: 1.6rem; }
