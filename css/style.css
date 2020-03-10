@@ -124,7 +124,7 @@ body {
       font-size: 3.5rem; } }
   @media (max-width: 37.5em) {
     .heading-supported-browsers {
-      font-size: 2.5rem; } }
+      font-size: 2rem; } }
 
 .heading-browser-icon {
   color: #424242;
@@ -136,7 +136,8 @@ body {
       font-size: 4.5rem; } }
   @media (max-width: 37.5em) {
     .heading-browser-icon {
-      font-size: 3rem; } }
+      font-size: 2rem;
+      margin: 8px; } }
 
 .about-icon {
   color: #909090;
@@ -904,7 +905,7 @@ body {
         height: 40rem; } }
     @media (max-width: 37.5em) {
       .header__balance-logo {
-        height: 30rem; } }
+        height: 27rem; } }
   .header__stats-logo {
     height: 30rem; }
     @media (max-width: 56.25em) {
@@ -912,7 +913,7 @@ body {
         height: 28rem; } }
     @media (max-width: 37.5em) {
       .header__stats-logo {
-        height: 23rem; } }
+        height: 20rem; } }
   .header__text-box {
     position: absolute;
     top: 17%;
